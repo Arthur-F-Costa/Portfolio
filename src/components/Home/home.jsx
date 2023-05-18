@@ -30,7 +30,7 @@ function Home(){
     return(
         <div>
             <div className="card1">
-                <img src="src\img\FT_QUADRADA-200.jpg"/>
+                <img src="../Home/documents/FT_QUADRADA-200.jpg"/>
                 <br />
                 <button id="linkedin" onClick={goToGithub}><GoMarkGithub size="30px"></GoMarkGithub></button>
                 <button id="linkedin" onClick={goToLinkedin}><AiFillLinkedin size="30px" /></button>
@@ -41,8 +41,8 @@ function Home(){
                 <button onClick={handleDownload} className="download"><BsDownload/> Acesso ao meu currículo</button>
             </div>
             <div className="card2">
-                <img src="src/img/CarsBomb.png" id="img-carsbomb"/>
-                <img src="src\img\ILOG.png" id="img-ilog"/>
+                <img src="../Home/documents/CarsBomb.png" id="img-carsbomb"/>
+                <img src="../Home/documents/ILOG.png" id="img-ilog"/>
                 <p id="ilog"> Ilog - I Love Old Games - Empresa fictícia</p>
                 <p id="carsbomb">Car's Bomb - Projeto de locadora de carros</p>
             </div>
