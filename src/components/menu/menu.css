@@ -1,0 +1,36 @@
+.container{
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.meu-botao {
+    background-color: #410a55; /* cor de fundo */
+    border: none; /* remove a borda */
+    color: white; /* cor do texto */
+    padding: 10px 20px; /* espaço interno */
+    text-align: center; /* centraliza o texto */
+    text-decoration: none; /* remove o sublinhado */
+    display: inline-block; /* exibe como um bloco de texto */
+    font-size: 16px; /* tamanho da fonte */
+    margin: 10px; /* margem externa */
+    cursor: pointer; /* cursor de mouse */
+    border-radius: 5px; /* borda arredondada */
+    transition: background-color 0.15s ease-in-out; /* animação de transição */
+  }
+  
+  .meu-botao:hover {
+    background-color: rgb(15, 0, 22); /* cor de fundo ao passar o mouse */
+    border: 1px solid #410a55;
+    transition: background-color 0.15s ease-in-out;
+  
+  }
+@media (max-width: 480px), (orientation: portrait){
+  .meu-botao:active{
+    border: 1px solid #410a55;
+    background-color: rgb(15, 0, 22);
+    transition: background-color 0.15s ease-in-out;
+  }
+}

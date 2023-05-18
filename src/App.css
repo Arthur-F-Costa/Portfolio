@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+:root{
+    background-color:rgb(10, 0, 10) ;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    position: relative;
+    transform: translate(-50%, -50%);
+    color: white;
+    user-select: none;
+    font-family: 'Open Sans', sans-serif;
+}
+@media (min-width: 720px) and (orientation: landscape){
+    .card1{
+        border-radius: 30px;
+        float: left;
+        width: 350px;
+        height: 720px;
+        background-color: rgb(4,0,6);
+    }
+    .card1 #linkedin{
+        min-width: 25px;
+        min-height: 30px;
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-left: 40px;
+        background: rgb(25, 0, 65);
+        background-color: rgba(84, 37, 114, 1);
+        border: none;
+        color: white;
+        border-radius: 5px;
+        padding: 7px;
+        transition: background-color 0.1s ease-in-out;
+    }
+    .card1 #linkedin:hover{
+        background: rgb(4, 0, 6);
+        transition: background-color 0.1s ease-in-out;
+        border: 1px solid rgba(84, 37, 114, 1);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .card1 img{
+        margin-top: 35px;
+        margin-left: 70px;
+        border-radius: 100%;
+        user-select: none;
+    }
+    .card1 p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.2rem;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: left;
+    }
+    .card1 .download{
+        font-size: 20px;
+        color: white;
+        background-color: rgba(84, 37, 114, 1);
+        border: none;
+        border-radius: 10px;
+        padding: 7px;
+        margin-left: 40 px;
+        transition: background-color 0,1s ease-in-out;
+    }
+    .card1 .download BsDownload{
+        margin-right: 5px;
+    }
+    .card1 .download:hover{
+        background: rgb(4, 0, 6);
+        transition: background-color 0.1s ease-in-out;
+        border: 1px solid rgba(84, 37, 114, 1);
+        cursor: pointer;
+    }
+    .card2{
+        position: absolute;
+        right: 0;
+        border-radius: 30px;
+        width: 1120px;
+        height: 340px;
+        margin-right: 35px;
+        background-color: rgb(4,0,6);
+    }
+    .card2 #carsbomb{
+        margin-left: 160px;
+        margin-top: 250px;
+    }
+    .card2 #img-carsbomb{
+        max-width: 250px;
+        max-height: 150px;
+        margin: 95px 0px 0px 200px;
+        border: rgb(28, 23, 34) 1px solid;
+        border-radius: 20px;
+        position: absolute;
+    }
+    .card2 #ilog{
+        position: absolute;
+        margin-left: 600px;
+        margin-top: 245px;
+    }
+    .card2 #img-ilog{
+        position: absolute;
+        width: 300px;
+        max-height: 150px;
+        margin-left: 600px;
+        margin-top: 100px;
+        border: rgb(28, 23, 34) 1px solid;
+        border-radius: 20px;
+    }
+    .card3{
+        margin-top: 350px;
+        float: right;
+        border-radius: 30px;
+        margin-right: 25px;
+        width: 1120px;
+        height: 370px;
+        background-color: rgb(4, 0, 6);
+        align-items: center;
+        flex: 1;
+    }
+    .card3 .divisoes{
+        margin-top: 28px;
+        margin-left: 360px;
+    }   
+    .card3 .divisao1{
+        margin-top: 5px;
+        margin-left: 40px;
+        margin-right: 15px;
+        display: flex;
+        width: 300px;
+        align-items: center;
+        justify-content: center;
+    }
+    .card3 .divisao2{
+        margin-top: 5px;
+        margin-left: 37px;
+        margin-right: 15px;
+        display:flex;
+        width: 300px;
+        align-items: center;
+        justify-content: center
+    }
+    .card3 .divisao1 p{
+        color: #ffffff;
+        font-size: 15px;
+    }
+    .card3 .divisao2 p{
+        color: #ffffff;
+        font-size: 12px;
+    }
+    .card3 .divisao1 .html{
+        margin: 0px 10px 0px 10px;
+        border: 1px solid rgb(28, 23, 34);
+        padding: 10px 100px 0px 100px;
+        font-size: 51.5px;
+        border-radius: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: orangered;
+        background-color: rgb(5, 0, 10);
+    }
+    .card3 .divisao1 .css{
+        color: #005aFF;
+        border: 1px solid rgb(28, 23, 34);
+        padding: 10px 100px 0px 100px;
+        font-size: 51.5px;
+        border-radius: 20px;
+        background-color: rgb(5, 0, 10);
+    }
+    .card3 .divisao1 .react{
+        border: 1px solid rgb(28, 23, 34);
+        margin: 0px 10px 0px 10px;
+        color: lightseagreen;
+        padding: 10px 100px 0px 100px;
+        font-size: 51.5px;
+        border-radius: 20px;
+        background-color: rgb(5, 0, 10);
+    }
+    .card3 .divisao1 .php{
+        color: #5f5f5f;
+        border: 1px solid rgb(28, 23, 34);
+        padding: 10px 100px 0px 100px;
+        font-size: 51.5px;
+        border-radius: 20px;
+        background-color: rgb(5, 0, 10);
+        margin-bottom: 5px;
+    }
+    .card3 .divisao2 .js{
+        border: 1px solid rgb(28, 23, 34);
+        margin: 0px 10px 0px 5px;
+        color: yellow;
+        padding: 10px 100px 0px 100px;
+        font-size: 51.5px;
+        border-radius: 20px;
+        background-color: rgb(5, 0, 10);
+    }
+    .card3 .divisao2 .csharp{
+        color: #00d500 ;
+        border: 1px solid rgb(28, 23, 34);
+        padding: 10px 100px 0px 100px;
+        font-size: 51.5px;
+        border-radius: 20px;
+        background-color: rgb(5, 0, 10);
+    }
+    .card3 .divisao2 .sql{
+        border: 1px solid rgb(28, 23, 34);
+        margin: 0px 10px 0px 10px;
+        color: #f3f3f3;
+        padding: 10px 100px 0px 100px;
+        font-size: 51.5px;
+        border-radius: 20px;
+        background-color: rgb(5, 0, 10);
+    }
+    .card3 .divisao2 .mobile{
+        color: aliceblue;
+        border: 1px solid rgb(28, 23, 34);
+        padding: 10px 100px 0px 100px;
+        font-size: 43px;
+        border-radius: 20px;
+        background-color: rgb(5, 0, 10);
+    }
+}
+@media (max-width: 480px), (orientation-: portrait){
+    .card1 #linkedin{
+        min-width: 30px;
+        min-height: 30px;
+        background-color: #410a55;
+        border-radius: 5px;
+        border: none;
+    }
+    .card1 #linkedin:active{
+        border: #410a55 1px solid;
+        background-color: rgb(15, 0, 22);
+    }
+}
+
+
