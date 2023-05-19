@@ -8,7 +8,7 @@ import { SiPhp, SiMysql, SiJavascript} from 'react-icons/si'
 import {FaReact} from 'react-icons/fa'
 import {CiMobile2} from 'react-icons/ci'
 import ILOG from 'src/components/Home/documents/ILOG.png'
-import carsBomb from 'src/components/Home/documents/CarsBomb.png'
+import CarsBomb from 'src/components/Home/documents/CarsBomb.png'
 import Curriculo from '../Home/documents/Curriculo.pdf'
 import {BsDownload} from 'react-icons/bs'
 
@@ -43,7 +43,7 @@ function Home(){
                 <button onClick={handleDownload} className="download"><BsDownload/> Acesso ao meu currículo</button>
             </div>
             <div className="card2">
-                <img src={carsBomb} id="img-carsbomb"/>
+                <img src={CarsBomb} id="img-carsbomb"/>
                 <img src={ILOG} id="img-ilog"/>
                 <p id="ilog"> Ilog - I Love Old Games - Empresa fictícia</p>
                 <p id="carsbomb">Car's Bomb - Projeto de locadora de carros</p>
