@@ -45,7 +45,7 @@ function Home(){
             </div>
             <div className="card2">
                 <img src="https://imgur.com/lToZee3" id="img-carsbomb"/>
-                <img src="https://imgur.com/nsHTXQf" id="img-ilog"/>
+                <img src="https://i.imgur.com/nsHTXQf.png" id="img-ilog"/>
                 <p id="ilog"> Ilog - I Love Old Games - Empresa fictícia</p>
                 <p id="carsbomb">Car's Bomb - Projeto de locadora de carros</p>
             </div>
