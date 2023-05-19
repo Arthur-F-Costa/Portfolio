@@ -33,7 +33,7 @@ function Home(){
     return(
         <div>
             <div className="card1">
-                <img src="https://imgur.com/uaYbISA"/>
+                <img src="https://i.imgur.com/uaYbISA.jpg"/>
                 <br />
                 <button id="linkedin" onClick={goToGithub}><GoMarkGithub size="30px"></GoMarkGithub></button>
                 <button id="linkedin" onClick={goToLinkedin}><AiFillLinkedin size="30px" /></button>
