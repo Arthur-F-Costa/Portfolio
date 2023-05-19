@@ -43,7 +43,7 @@ function Home(){
             </div>
             <div className="card2">
                 <img src="src/components/Home/documents/CarsBomb.png" id="img-carsbomb"/>
-                <img src={ILOG} id="img-ilog"/>
+                <img src="" id="img-ilog"/>
                 <p id="ilog"> Ilog - I Love Old Games - Empresa fictícia</p>
                 <p id="carsbomb">Car's Bomb - Projeto de locadora de carros</p>
             </div>
