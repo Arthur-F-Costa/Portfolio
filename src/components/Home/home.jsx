@@ -7,7 +7,7 @@ import {TbBrandCSharp} from 'react-icons/tb'
 import { SiPhp, SiMysql, SiJavascript} from 'react-icons/si'
 import {FaReact} from 'react-icons/fa'
 import {CiMobile2} from 'react-icons/ci'
-import ILOG from '../Home/documents/ILOG.png'
+import ILOG from 'src/components/Home/documents/ILOG.png'
 import Curriculo from '../Home/documents/Curriculo.pdf'
 import {BsDownload} from 'react-icons/bs'
 
