@@ -44,7 +44,7 @@ function Home(){
                 <button onClick={handleDownload} className="download"><BsDownload/> Acesso ao meu currículo</button>
             </div>
             <div className="card2">
-                <img src="https://imgur.com/lToZee3" id="img-carsbomb"/>
+                <img src="https://i.imgur.com/lToZee3.png" id="img-carsbomb"/>
                 <img src="https://i.imgur.com/nsHTXQf.png" id="img-ilog"/>
                 <p id="ilog"> Ilog - I Love Old Games - Empresa fictícia</p>
                 <p id="carsbomb">Car's Bomb - Projeto de locadora de carros</p>
