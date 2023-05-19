@@ -7,6 +7,7 @@ import {TbBrandCSharp} from 'react-icons/tb'
 import { SiPhp, SiMysql, SiJavascript} from 'react-icons/si'
 import {FaReact} from 'react-icons/fa'
 import {CiMobile2} from 'react-icons/ci'
+import Profile from 'src/components/Home/documents/FT_QUADRADA-200.jpg'
 import ILOG from 'src/components/Home/documents/ILOG.png'
 import {CarsBomb} from 'src/components/Home/documents/CarsBomb.png'
 import Curriculo from '../Home/documents/Curriculo.pdf'
@@ -32,7 +33,7 @@ function Home(){
     return(
         <div>
             <div className="card1">
-                <img src="src/components/Home/documents/FT_QUADRADA-200.jpg"/>
+                <img src={Profile}/>
                 <br />
                 <button id="linkedin" onClick={goToGithub}><GoMarkGithub size="30px"></GoMarkGithub></button>
                 <button id="linkedin" onClick={goToLinkedin}><AiFillLinkedin size="30px" /></button>
