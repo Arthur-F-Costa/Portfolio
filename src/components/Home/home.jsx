@@ -8,7 +8,7 @@ import { SiPhp, SiMysql, SiJavascript} from 'react-icons/si'
 import {FaReact} from 'react-icons/fa'
 import {CiMobile2} from 'react-icons/ci'
 import ILOG from 'src/components/Home/documents/ILOG.png'
-import CarsBomb from 'src/components/Home/documents/CarsBomb.png'
+import {CarsBomb} from 'src/components/Home/documents/CarsBomb.png'
 import Curriculo from '../Home/documents/Curriculo.pdf'
 import {BsDownload} from 'react-icons/bs'
 
